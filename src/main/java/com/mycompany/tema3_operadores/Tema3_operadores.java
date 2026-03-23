@@ -97,9 +97,16 @@ public class Tema3_operadores {
         System.out.println((true) && false);
         
         
-        //operador        
+        //operador 
         System.out.println("Resultado del operador AND");
         System.out.println("true AND true:");
-        System.out.println((true) && true);       
+        System.out.println((true) && true);   
+        
+        //Ejercicio 1:operación
+        //(89-8/3)+(56%5)
+        
+        //Ejercicio 2:Lógicos
+        //true and (false or (6!=7 and 8>=4)) 
+
 }
 }
