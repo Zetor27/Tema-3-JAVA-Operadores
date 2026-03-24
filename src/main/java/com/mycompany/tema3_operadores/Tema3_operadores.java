@@ -78,29 +78,19 @@ public class Tema3_operadores {
         //operador and &&        
         System.out.println("Resultado del operador AND");
         System.out.println("true AND true:");
-        System.out.println((true) && true);
+        System.out.println((true) && true);//true
+        System.out.println((true) && false);//false
+        System.out.println((false) && true);//false
+        System.out.println((false) && false);//false
         
-        //operador and &&        
+        
+        //operador and ||       
         System.out.println("Resultado del operador AND");
-        System.out.println("true AND false:");
-        System.out.println((true) && false);
-
-       
-        //operador and ||        
-        System.out.println("Resultado del operador OR");
-        System.out.println("true OR true:");
+        System.out.println("true Or false:");
         System.out.println((true) || true);
-        
-        //operador and ||
-        System.out.println("Resultado del operador AND");
-        System.out.println("true AND false:");
-        System.out.println((true) && false);
-        
-        
-        //operador 
-        System.out.println("Resultado del operador AND");
-        System.out.println("true AND true:");
-        System.out.println((true) && true);   
+        System.out.println((true) || false);
+        System.out.println((false) || true);
+        System.out.println((false) || false);
         
         //Ejercicio 1:operación
         //(89-8/3)+(56%5)
